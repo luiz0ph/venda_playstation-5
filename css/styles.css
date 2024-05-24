@@ -121,7 +121,20 @@ main > section {
 }
 
 #nada {
-    width: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 10px;
+    transform: scale(0.9);
+}
+
+#nada > img {
+    width: 550px;
+    filter: drop-shadow(1px 1px 10px #000000);
 }
 
 h1 {
